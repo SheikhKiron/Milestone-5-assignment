@@ -27,7 +27,7 @@ let serviceNumber = call.parentNode.parentNode.childNodes[5].innerText;
           let div = document.createElement('div');
           div.innerHTML = `<div class="flex justify-between items-center mt-4 bg-[#fafafa] p-5 rounded-lg">
             <div>
-              <h1 class="font-bold">${serviceTitleBangla}</h1>
+              <h1 class="font-bold noto">${serviceTitleBangla}</h1>
               <p class="text-[#5C5C5C]">${serviceNumber}</p>
             </div>
             <h1 class="font-bold">${time}</h1>
@@ -56,5 +56,6 @@ for (let copy of copyBtn) {
     let countCopyNumber = Number(countCopy.innerText);
     countCopy.innerText = countCopyNumber + 1;
     navigator.clipboard.writeText(number);
+    alert('নম্বর কপি হয়েছেঃ ' + number);
   })
 }

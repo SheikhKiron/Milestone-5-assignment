@@ -4,7 +4,7 @@
 <b>✅getElementById('id')</b> <br>
 
 <li> <b>Returns:</b> A single element with the specified id.</li>
-<li> <b>Usage:</b> document.getElementId('myId')</li>
+<li> <b>Usage:</b> document.getElementById('myId')</li>
 <li><b>Note:</b> IDs should be unique in a page.</li> <br>
 
 ✅getElementsByClassName('class')
@@ -44,7 +44,7 @@ the DOM. It works from the innermost element to the outer elements and can be st
 
 <b style="font-size: 22px;">🟠🟠 Answer to the question no-4 🟠🟠</b>
 
-➡ Event Delegation is a technuque in JavaScript where a single event listener is added to a parent element to handle
+➡ Event Delegation is a technique in JavaScript where a single event listener is added to a parent element to handle
 events on its child elements.
 
 ➡ It is useful because it reduces memory usage, simplifies code, and works for dynamically added elements.

@@ -5,31 +5,31 @@
 
 <li> <b>Returns:</b> A single element with the specified id.</li>
 <li> <b>Usage:</b> document.getElementId('myId')</li>
-<li><b>Note:</b> IDs should be unique in a page.</li>
+<li><b>Note:</b> IDs should be unique in a page.</li> <br>
 
 ✅getElementsByClassName('class')
 
 <li> <b>Returns:</b>A live HTMLCollection of all elements with the given class.</li>
 <li> <b>Usage:</b>document.getElementsByClassName('myClass')</li>
-<li> <b>Access by index:</b>collection[0]</li>
+<li> <b>Access by index:</b>collection[0]</li> <br>
 
 ✅querySelector('selector')
 
 <li> <b>Returns:</b> The first element that matches the CSS selector.</li>
 <li> <b>Usage:</b> document.querySelector('.myClass') or
-  document.querySelector('#myId')</li>
+  document.querySelector('#myId')</li> <br>
 
 ✅querySelectorAll('selector')
 
 <li> <b>Returns:</b> A static NodeList of all elements matching the CSS selector.</li>
-<li> <b>Usage:</b> document.querySelectorAll('div.myClass')</li>
+<li> <b>Usage:</b> document.querySelectorAll('div.myClass')</li> <br>
 
 <b style="font-size: 22px;">🟠🟠 Answer to the question no-2 🟠🟠</b> <br>
 
 To create and insert a new element into the DOM:
-1. Create element ➡
+1. Create element  ➡
 let element=document.createElement('div');
-2. Add content ➡
+2. Add content     ➡
 elemet.textContent='Hello';
 
 3. Insert into DOM ➡

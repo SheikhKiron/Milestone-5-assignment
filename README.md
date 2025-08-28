@@ -1,24 +1,24 @@
 # Milestone-5-assignment
-🟠🟠 Answer to the question no-1 🟠🟠
+<b>🟠🟠 Answer to the question no-1 🟠🟠</b>
 
-🔵getElementById('id')
-➡ Returns: A single element with the specified id.
-➡ Usage: document.getElementId('myId')
-➡ Note: IDs should be unique in a page.
+🔵getElementById('id') <br>
+<li> Returns: A single element with the specified id.</li>
+<li> Usage: document.getElementId('myId')</li>
+ <li>Note: IDs should be unique in a page.</li>
 
 🔵getElementsByClassName('class')
-➡ Returns:A live HTMLCollection of all elements with the given class.
-➡ Usage:document.getElementsByClassName('myClass')
-➡ Access by index:collection[0]
+<li> Returns:A live HTMLCollection of all elements with the given class.</li>
+<li> Usage:document.getElementsByClassName('myClass')</li>
+<li> Access by index:collection[0]</li>
 
 🔵querySelector('selector')
-➡ Returns: The first element that matches the CSS selector.
-➡ Usage: document.querySelector('.myClass') or
-document.querySelector('#myId')
+<li> Returns: The first element that matches the CSS selector.</li>
+<li> Usage: document.querySelector('.myClass') or
+document.querySelector('#myId')</li>
 
 🔵querySelectorAll('selector')
-➡ Returns: A static NodeList of all elements matching the CSS selector.
-➡ Usage: document.querySelectorAll('div.myClass')
+<li> Returns: A static NodeList of all elements matching the CSS selector.</li>
+<li> Usage: document.querySelectorAll('div.myClass')</li>
 
 🟠🟠 Answer to the question no-2 🟠🟠
 To create and insert a new element into the DOM:

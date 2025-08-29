@@ -1,4 +1,5 @@
 # Milestone-5-assignment
+<b>Question-1: </b>What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll? <br>
 <b style="font-size: 22px;">🟠🟠 Answer to the question no-1 🟠🟠</b>
 
 <b>✅getElementById('id')</b> <br>
@@ -24,6 +25,7 @@
 <li> <b>Returns:</b> A static NodeList of all elements matching the CSS selector.</li>
 <li> <b>Usage:</b> document.querySelectorAll('div.myClass')</li> <br>
 
+<b>Question-2: </b>How do you create and insert a new element into the DOM?<br>
 <b style="font-size: 22px;">🟠🟠 Answer to the question no-2 🟠🟠</b> <br>
 
 To create and insert a new element into the DOM:
@@ -37,10 +39,14 @@ parent.appendChild(element);
 or
 parent.prepend(element);
 
+<b>Question-3: </b>What is Event Bubbling and how does it work?<br>
+
 <b style="font-size: 22px;">🟠🟠 Answer to the question no-3 🟠🟠</b>
 
 Event Bubbling is when an event starts on the target element and automatically propagates up to its parent elements in
 the DOM. It works from the innermost element to the outer elements and can be stopped using event.stopPropagation().
+
+<b>Question-4: </b>What is Event Delegation in JavaScript? Why is it useful?<br>
 
 <b style="font-size: 22px;">🟠🟠 Answer to the question no-4 🟠🟠</b>
 
@@ -49,6 +55,7 @@ events on its child elements.
 
 ➡ It is useful because it reduces memory usage, simplifies code, and works for dynamically added elements.
 
+<b>Question-5: </b>What is the difference between preventDefault() and stopPropagation() methods?<br>
 <b style="font-size: 22px;">🟠🟠 Answer to the question no-5 🟠🟠</b>
 
 ➡ preventDefault() stops the browser's default action for an event.
